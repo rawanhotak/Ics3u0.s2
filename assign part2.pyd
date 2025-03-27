@@ -1,0 +1,3 @@
+a = float(input("please enter the edge length of your cube:"))
+d=a * math.sqrt(3)
+print(f"the length of the inner diagonal of a cube with side lenght {a} is: {d:.2f}")
