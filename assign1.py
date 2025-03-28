@@ -2,6 +2,7 @@
 name:rawan abdelbasit
 date:28/3/2005
 virables: a&b is odd or even
+""
 print("Welcome to the even and odd detector!")
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
