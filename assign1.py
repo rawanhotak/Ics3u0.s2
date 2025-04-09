@@ -2,6 +2,7 @@
 name:rawan abdelbasit
 date:28/3/2005
 virables: a&b is odd or even
+#This program tells if two numbers are even or odd, then shows if their product will be even or odd
 ""
 print("Welcome to the even and odd detector!")
 a = int(input("Enter the first number: "))
