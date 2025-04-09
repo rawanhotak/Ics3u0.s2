@@ -1,5 +1,7 @@
 ""
-name:rawan abdelbasit
+rawan abdelbasit
+1091840
+ICS3U
 date:28/3/2005
 virables: a&b is odd or even
 #This program tells if two numbers are even or odd, then shows if their product will be even or odd
