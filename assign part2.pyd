@@ -1,6 +1,7 @@
 """
 name:rawan abdelbasit
 date:28/3/2005
+virables 
 # This program calculates the space diagonal of a cube using the formula: diagonal = side × √3
 """
 a = float(input("please enter the edge length of your cube:"))
