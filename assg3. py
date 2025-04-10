@@ -1,4 +1,4 @@
-""
+"""
 rawan abdelbasit
 1091840
 ICS3U
@@ -8,7 +8,7 @@ Variable dictionary:
 (guess) the player's current guess.
 (i) counts how many guesses the player has made.
 #This program is a guessing game where you have 6 chances to guess a number between 1 and 100
-""
+"""
 print("Hello! Welcome to the number guessing game!")
 print("I am thinking of a number between 1 and 100.")
 print(f"You have a maximum of six (6) tries.")
