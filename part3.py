@@ -13,7 +13,7 @@ pennies — the remaining cents that are less than 5, representing pennies
 cent5s=int(input("please enter the value of cents:"))
 if cents > 100:
      cents= cents%100# Get the remainder after dividing by 100 (removes the dollar part)
- # Calculate the number of quarters (25 cents) in the remaining amount
+     # Calculate the number of quarters (25 cents) in the remaining amount
      quarters = cents// 25# Integer division to find how many quarters fit in the remaining cents
 cents %=25 # Update the remaining cents after removing the quarters
 # Calculate the number of dimes (10 cents) in the remaining amount
