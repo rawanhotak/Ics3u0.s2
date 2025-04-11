@@ -20,7 +20,7 @@ for i in range (attempts): # Loop for each attempt
       if guess < secret_number:# Check if the guess is lower than the secret number
          print("higher!")# Prompt the user to guess higher
       elif guess> secret_number:# Check if the guess is higher than the secret number
-           print("lower!)#Prompt the user to guess lower
+           print("lower!")#Prompt the user to guess lower
       else:# If the guess is correct
            print("you guessed right!")#Inform the user they guessed correctly
            break # Exit the loop as the correct guess was made
