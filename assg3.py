@@ -12,6 +12,7 @@ Variable dictionary:
 print("Hello! Welcome to the number guessing game!")# Introduction message
 print("I am thinking of a number between 1 and 100.")# Instructions about the game
 print(f"You have a maximum of six (6) tries.") # Informing the user about the number of attempts allowed
+import random
 secret_number = random.randint(1, 100)# Generate a random number between 1 and 100
 attempts = 6 # Set the maximum number of attempts
 for i in range (attempts): # Loop for each attempt
