@@ -1,0 +1,22 @@
+# Assignment 3: Palindrome Checker using Loops and Arrays
+# This program checks if each word in a list is a palindrome
+# A palindrome is a word that reads the same forwards and backwards
+ Create a list of 10 words (some palindromes, some not)
+word_list = ["civic", "level", "kayak", "madam", "radar", "rotor", "racecar", "refer", "school", "desk"]
+: Loop through each word in the list
+for word in word_list:
+# Assume the word is a palindrome
+is_palindrome = True
+# Step 3: Check each character from start and end moving toward the middle
+for position in range(len(word) // 2):
+# Compare character from front and back
+front_character = word[position]
+back_character = word[-(position + 1)]
+# If characters do not match, it is not a palindrome
+if front_character != back_character:
+is_palindrome = False
+# Step 4: Print result based on palindrome check
+if is_palindrome:
+print(word + " is a palindrome.")
+else:
+print(word + " is not a palindrome.")
