@@ -1,3 +1,13 @@
+"""
+rawan abdelbasit
+1091840
+ICS3U
+date:28/5/2025
+word_list: stores the list of words to check for palindrome
+word: used in the loop to access each word from the list
+i: used as an index in the loop to compare letters
+Length: stores the number of characters in each word to help compare from both ends
+
 # List of words to check
 word_list = ["racecar", "noon"
 ', "desk", "madam",
