@@ -8,18 +8,33 @@ i: used as an index in the loop to compare letters
 Length: stores the number of characters in each word to help compare from both ends
 """
 # List of words to check
-word_list = ["racecar", "noon", "desk", "madam","level","store","rotor","civic","apple","refer"]
+
+word_list = ["racecar", "noon", "desk", "madam", "level", "store", "eye"]
+
 # Function to check if a word is a palindrome
-def is_palindrome (word):
-    length = len (word)
-for i in range(length // 2) :
-    if wordlil != word[length - 1 - i]:
-    return False
-            return True
-# Loop through the list and print whether each
-print ("Palindrome program!")
+
+def is_palindrome(word):
+
+    length = len(word)
+
+    for i in range(length // 2):
+
+        if word[i] != word[length - 1 - i]:
+
+            return False
+
+    return True
+
+# Loop through the list and print whether each word is a palindrome
+
+print("Palindrome program!")
+
 for word in word_list:
+
     if is_palindrome(word):
-      print(f"{word} is a palindrome")
-else:
-      print(f"{word} is not a palindrome")
+
+        print(f"{word} is a palindrome")
+
+    else:
+
+        print(f"{word} is not a palindrome")
